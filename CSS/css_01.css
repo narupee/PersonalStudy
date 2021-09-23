@@ -1,0 +1,29 @@
+
+/* 유튭(출처:드림) CSS 1강 */
+
+/* CSS 영상 공부 ing 1부 */
+
+/* 반응형은 %으로 적는게 좋다.*/
+/*(예) 비디오*/
+
+
+/* 플레이어 중간 배치 "center;"
+   웹에서 볼때 점점 커지면서 자리가 여유로워지면 이걸 통해 중간으로 배치됨*/
+/* 글씨가 따라가지 않고 고정하기 위한 방법 "sticky;" */
+/*noinspection ALL*/
+.player {
+    position: sticky;
+    text-align: center;
+    background-color: var(--black-color);
+    /* 백그라운드 컬러 주는법 */
+}
+
+.player video {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    /* 너가 커질 수 있는 크기는 딱 여기까지야! "1000px"
+       경계선 지정 */
+    /* 100% 만 하면 너무 커져 밑에 박스들이 안보이는 경우가 생김
+       그걸 막고자 이걸 쓴다 "max-width"*/
+}
