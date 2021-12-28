@@ -1,3 +1,9 @@
+
+'use strict';
+
+
+
+
 // objects
 // one of the JavaScript's data types.
 // a collection of related data and/or functionality.
@@ -93,3 +99,37 @@ console.log('random' in rupee); // false (정의하지않은 걸 사용함)
 console.log(rupee.random); // undefined (정의하지않은 걸 사용함)
 
 // 6. 12:52
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
